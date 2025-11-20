@@ -1,0 +1,2325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="43" passed="17" failed="26" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-15T12:08:54 IST" name="Default suite" finished-at="2025-11-15T12:10:08 IST" duration-ms="73576">
+    <groups>
+    </groups>
+    <test started-at="2025-11-15T12:08:54 IST" name="Default test" finished-at="2025-11-15T12:10:08 IST" duration-ms="73576">
+      <class name="AyushAmazon.jaimatadi.Amazon_Test">
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:08:55 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:08:59 IST" duration-ms="3805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[URL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:08:59 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:18 IST" duration-ms="19641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9977512206]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yash@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LOGIN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:18 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:19 IST" duration-ms="1074" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LOGIN]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, actions {actions=[org.openqa.selenium.interactions.Sequence@1023150a]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, actions {actions=[org.openqa.selenium.interactions.Sequence@1023150a]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+at java.base/java.util.Map.forEach(Map.java:733)
+at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+at org.openqa.selenium.json.Json.toJson(Json.java:133)
+at org.openqa.selenium.json.Json.toJson(Json.java:119)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:236)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:109)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:203)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:630)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:581)
+at AyushAmazon.jaimatadi.Login.fillEmail(Login.java:42)
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+at org.openqa.selenium.json.Json.toJson(Json.java:131)
+... 38 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+... 59 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='ap_email_login']"}
+  (Session info: chrome=142.0.7444.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, findElement {value=//input[@id='ap_email_login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy11.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:262)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:211)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:74)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+... 61 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:19 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:20 IST" duration-ms="943" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WrongPass@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LOGIN]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, actions {actions=[org.openqa.selenium.interactions.Sequence@7a1f8def]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, actions {actions=[org.openqa.selenium.interactions.Sequence@7a1f8def]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+at java.base/java.util.Map.forEach(Map.java:733)
+at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+at org.openqa.selenium.json.Json.toJson(Json.java:133)
+at org.openqa.selenium.json.Json.toJson(Json.java:119)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:236)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:109)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:203)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:630)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:581)
+at AyushAmazon.jaimatadi.Login.fillEmail(Login.java:42)
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+at org.openqa.selenium.json.Json.toJson(Json.java:131)
+... 38 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+... 59 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='ap_email_login']"}
+  (Session info: chrome=142.0.7444.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, findElement {value=//input[@id='ap_email_login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy11.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:262)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:211)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:74)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+... 61 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:20 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:21 IST" duration-ms="1036" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yashgangil2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LOGIN]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, actions {actions=[org.openqa.selenium.interactions.Sequence@70f31322]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, actions {actions=[org.openqa.selenium.interactions.Sequence@70f31322]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+at java.base/java.util.Map.forEach(Map.java:733)
+at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+at org.openqa.selenium.json.Json.toJson(Json.java:133)
+at org.openqa.selenium.json.Json.toJson(Json.java:119)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:236)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:109)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:203)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:630)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:581)
+at AyushAmazon.jaimatadi.Login.fillEmail(Login.java:42)
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+at org.openqa.selenium.json.Json.toJson(Json.java:131)
+... 38 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+... 59 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='ap_email_login']"}
+  (Session info: chrome=142.0.7444.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, findElement {value=//input[@id='ap_email_login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy11.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:262)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:211)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:74)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+... 61 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:21 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:21 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:21 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:21 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:21 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:26 IST" duration-ms="4283" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PRODUCT]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div role="listitem" data-asin="B0BDJS3MRM" data-index="4" data-uuid="e7b94932-04a2-4eed-ab3d-b967310a4f22" id="e7b94932-04a2-4eed-ab3d-b967310a4f22" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 AdHolder sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="12" data-cel-widget="search_result_3">...</div> is not clickable at point (615, 578). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 8963px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.56B73B59396D96C3D8971E414988D321.e.726}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div role="listitem" data-asin="B0BDJS3MRM" data-index="4" data-uuid="e7b94932-04a2-4eed-ab3d-b967310a4f22" id="e7b94932-04a2-4eed-ab3d-b967310a4f22" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 AdHolder sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="12" data-cel-widget="search_result_3">...</div> is not clickable at point (615, 578). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 8963px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.56B73B59396D96C3D8971E414988D321.e.726}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at AyushAmazon.jaimatadi.ProductResult.clickProduct(ProductResult.java:52)
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:26 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:26 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:26 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:26 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:26 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:26 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:26 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:26 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:26 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:26 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:26 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[110001.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CODE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:26 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:29 IST" duration-ms="3800" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PRODUCT]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div role="listitem" data-asin="B0CHX1W1XY" data-index="4" data-uuid="753301fd-48d4-43d2-91bf-338767a58845" id="753301fd-48d4-43d2-91bf-338767a58845" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 AdHolder sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="12" data-cel-widget="search_result_3">...</div> is not clickable at point (615, 578). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 8954px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.7EF11268DD2EA94340ABAD9BC2E65A40.e.901}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div role="listitem" data-asin="B0CHX1W1XY" data-index="4" data-uuid="753301fd-48d4-43d2-91bf-338767a58845" id="753301fd-48d4-43d2-91bf-338767a58845" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 AdHolder sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="12" data-cel-widget="search_result_3">...</div> is not clickable at point (615, 578). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 8954px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.7EF11268DD2EA94340ABAD9BC2E65A40.e.901}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at AyushAmazon.jaimatadi.ProductResult.clickProduct(ProductResult.java:52)
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:29 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:34 IST" duration-ms="4802" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdfghjkl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PRODUCT]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div role="listitem" data-asin="B0DBZSVNHV" data-index="2" data-uuid="3f8e0f34-6455-40eb-b25f-b8dda958b865" id="3f8e0f34-6455-40eb-b25f-b8dda958b865" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-4-of-24 sg-col-4-of-12 s-result-item s-asin sg-col-4-of-16 AdHolder sg-col s-widget-spacing-small sg-col-4-of-8 sg-col-4-of-20" data-component-id="19" data-cel-widget="search_result_1">...</div> is not clickable at point (388, 435). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 10540px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.63ECFEE827425F9B5E15769B7A1FCD05.e.1058}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div role="listitem" data-asin="B0DBZSVNHV" data-index="2" data-uuid="3f8e0f34-6455-40eb-b25f-b8dda958b865" id="3f8e0f34-6455-40eb-b25f-b8dda958b865" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-4-of-24 sg-col-4-of-12 s-result-item s-asin sg-col-4-of-16 AdHolder sg-col s-widget-spacing-small sg-col-4-of-8 sg-col-4-of-20" data-component-id="19" data-cel-widget="search_result_1">...</div> is not clickable at point (388, 435). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 10540px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.63ECFEE827425F9B5E15769B7A1FCD05.e.1058}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at AyushAmazon.jaimatadi.ProductResult.clickProduct(ProductResult.java:52)
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:34 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:39 IST" duration-ms="4322" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iph]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PRODUCT]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div role="listitem" data-asin="B0CHX1W1XY" data-index="3" data-uuid="ea191965-83d2-4e33-b25c-85be76d2fcee" id="ea191965-83d2-4e33-b25c-85be76d2fcee" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="9" data-cel-widget="search_result_2">...</div> is not clickable at point (615, 625). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 8669px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.F466D7067FDD0CA6B6CFD4312A8AFCE2.e.1232}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div role="listitem" data-asin="B0CHX1W1XY" data-index="3" data-uuid="ea191965-83d2-4e33-b25c-85be76d2fcee" id="ea191965-83d2-4e33-b25c-85be76d2fcee" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="9" data-cel-widget="search_result_2">...</div> is not clickable at point (615, 625). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 8669px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.F466D7067FDD0CA6B6CFD4312A8AFCE2.e.1232}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at AyushAmazon.jaimatadi.ProductResult.clickProduct(ProductResult.java:52)
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:39 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:43 IST" duration-ms="4451" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SamsungGalaxy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PRODUCT]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div role="listitem" data-asin="B0FN7WFPFD" data-index="3" data-uuid="1d270aae-636b-46cd-a76e-6b95d833cf39" id="1d270aae-636b-46cd-a76e-6b95d833cf39" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 AdHolder sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="12" data-cel-widget="search_result_2">...</div> is not clickable at point (615, 455). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 9484px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.239A9F49E41D9900C70AD6149C74173D.e.1428}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div role="listitem" data-asin="B0FN7WFPFD" data-index="3" data-uuid="1d270aae-636b-46cd-a76e-6b95d833cf39" id="1d270aae-636b-46cd-a76e-6b95d833cf39" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 AdHolder sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="12" data-cel-widget="search_result_2">...</div> is not clickable at point (615, 455). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 9484px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.239A9F49E41D9900C70AD6149C74173D.e.1428}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at AyushAmazon.jaimatadi.ProductResult.clickProduct(ProductResult.java:52)
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:43 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:47 IST" duration-ms="4235" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PRODUCT]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div role="listitem" data-asin="B0CHX1W1XY" data-index="4" data-uuid="2ee3eda4-aeb6-4621-b7eb-cdde03b8fc42" id="2ee3eda4-aeb6-4621-b7eb-cdde03b8fc42" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 AdHolder sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="12" data-cel-widget="search_result_3">...</div> is not clickable at point (615, 578). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 8963px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.44F0CE0F8B60DDDB43297B3207862603.e.1583}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div role="listitem" data-asin="B0CHX1W1XY" data-index="4" data-uuid="2ee3eda4-aeb6-4621-b7eb-cdde03b8fc42" id="2ee3eda4-aeb6-4621-b7eb-cdde03b8fc42" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 AdHolder sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="12" data-cel-widget="search_result_3">...</div> is not clickable at point (615, 578). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 8963px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.44F0CE0F8B60DDDB43297B3207862603.e.1583}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at AyushAmazon.jaimatadi.ProductResult.clickProduct(ProductResult.java:52)
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:47 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:51 IST" duration-ms="4123" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PRODUCT]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div role="listitem" data-asin="B0CHX1W1XY" data-index="4" data-uuid="4e1640da-aa54-4776-9327-fa6a15125d2d" id="4e1640da-aa54-4776-9327-fa6a15125d2d" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 AdHolder sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="11" data-cel-widget="search_result_3">...</div> is not clickable at point (615, 619). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 10410px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.52E1ABC9D3E2D324F4A47356CB577A2C.e.1763}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div role="listitem" data-asin="B0CHX1W1XY" data-index="4" data-uuid="4e1640da-aa54-4776-9327-fa6a15125d2d" id="4e1640da-aa54-4776-9327-fa6a15125d2d" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 AdHolder sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="11" data-cel-widget="search_result_3">...</div> is not clickable at point (615, 619). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 10410px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.52E1ABC9D3E2D324F4A47356CB577A2C.e.1763}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at AyushAmazon.jaimatadi.ProductResult.clickProduct(ProductResult.java:52)
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:51 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:56 IST" duration-ms="4405" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PRODUCT]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div role="listitem" data-asin="B0DGJHBX5Y" data-index="4" data-uuid="d9f07fb1-e43d-427c-99d1-7e6184ae8c34" id="d9f07fb1-e43d-427c-99d1-7e6184ae8c34" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 AdHolder sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="11" data-cel-widget="search_result_3">...</div> is not clickable at point (615, 607). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 10117px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.D625E6895CFC149F01D55116D3AF3D0F.e.1926}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div role="listitem" data-asin="B0DGJHBX5Y" data-index="4" data-uuid="d9f07fb1-e43d-427c-99d1-7e6184ae8c34" id="d9f07fb1-e43d-427c-99d1-7e6184ae8c34" data-component-type="s-search-result" class="sg-col-4-of-4 sg-col-20-of-24 s-result-item s-asin sg-col-16-of-20 AdHolder sg-col sg-col-12-of-12 s-widget-spacing-small sg-col-8-of-8 sg-col-12-of-16" data-component-id="11" data-cel-widget="search_result_3">...</div> is not clickable at point (615, 607). Other element would receive the click: <div id="nav-cover" style="z-index: auto; height: 10117px; width: 1100px; display: block;"></div>
+  (Session info: chrome=142.0.7444.61)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement {id=f.BF2F71884F008C38212FE4C4178F9C90.d.D625E6895CFC149F01D55116D3AF3D0F.e.1926}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at AyushAmazon.jaimatadi.ProductResult.clickProduct(ProductResult.java:52)
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:56 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:09:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:09:56 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="11732" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PRODUCT]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement [id]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f61eb63dcf5ce144ae1991c8937f9a1, clickElement [id]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.61, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\yashg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51820}, goog:processID: 26708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51820/devtoo..., se:cdpVersion: 142.0.7444.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f61eb63dcf5ce144ae1991c8937f9a1)] -> xpath: //div[contains(@class,'s-result-item s-asin ')]]
+Session ID: 7f61eb63dcf5ce144ae1991c8937f9a1
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at AyushAmazon.jaimatadi.ProductResult.clickProduct(ProductResult.java:52)
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:967)
+at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+... 8 more
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:388)
+at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:590)
+at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
+at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+... 3 more
+Caused by: java.net.SocketException: Connection reset
+at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1470)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1415)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1415)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="4" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="3" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AyushAmazon.jaimatadi.Amazon_Test@75d4a5c2]" started-at="2025-11-15T12:10:08 IST" name="test1" data-provider="excel" finished-at="2025-11-15T12:10:08 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.toUpperCase()" because "action" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because "action" is null
+at AyushAmazon.jaimatadi.Amazon_Test.test1(Amazon_Test.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- AyushAmazon.jaimatadi.Amazon_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
