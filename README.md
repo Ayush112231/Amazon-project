@@ -6,3 +6,4 @@ Have you received the CIS trigger yet?
 Hi Igor,
 
 The AdviceWorks, EasyInfoBO, and TradeReview AAC jobs are not running. Could you please check and investigate the issue?
+Could you please clarify the business impact of this issue and let us know which files or processes are related to it?
